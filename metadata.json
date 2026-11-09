@@ -1,0 +1,6 @@
+{
+  "name": "Aetheria Stratospheric Observatory",
+  "description": "Explore cutting-edge atmospheric physics, solar radiation mapping, and climate telemetry from the edge of space at 38km altitude.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
