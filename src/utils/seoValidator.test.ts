@@ -11,7 +11,7 @@ test('auditOpenGraphMeta marks complete 1200x630 https configuration as 100% sco
   const result = auditOpenGraphMeta({
     title: 'Aetheria Stratospheric Observatory — Earth & Solar Science',
     description: 'Explore cutting-edge atmospheric physics, solar radiation mapping, and climate telemetry from the edge of space at 38km altitude.',
-    image: 'https://ais-pre-ajig2us5fwlmodjewpsvso-376304965448.asia-east1.run.app/og-image.png',
+    image: 'https://i.postimg.cc/rynCf9Fv/image.png',
     imageWidth: 1200,
     imageHeight: 630,
     twitterCard: 'summary_large_image',

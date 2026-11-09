@@ -31,7 +31,7 @@ export const SocialPreviewModal: React.FC<SocialPreviewModalProps> = ({ isOpen, 
     title: 'Aetheria Stratospheric Observatory — Earth & Solar Science',
     description:
       'Explore cutting-edge atmospheric physics, solar radiation mapping, and climate telemetry from the edge of space at 38km altitude.',
-    image: 'https://ais-pre-ajig2us5fwlmodjewpsvso-376304965448.asia-east1.run.app/og-image.png',
+    image: 'https://i.postimg.cc/rynCf9Fv/image.png',
     imageWidth: 1200,
     imageHeight: 630,
     imageType: 'image/png',
@@ -43,7 +43,7 @@ export const SocialPreviewModal: React.FC<SocialPreviewModalProps> = ({ isOpen, 
     twitterTitle: 'Aetheria Stratospheric Observatory — Earth & Solar Science',
     twitterDescription:
       'Explore cutting-edge atmospheric physics, solar radiation mapping, and climate telemetry from the edge of space at 38km altitude.',
-    twitterImage: 'https://ais-pre-ajig2us5fwlmodjewpsvso-376304965448.asia-east1.run.app/og-image.png',
+    twitterImage: 'https://i.postimg.cc/rynCf9Fv/image.png',
   };
 
   const [activeTab, setActiveTab] = useState<'simulator' | 'audit' | 'graphic' | 'code'>('simulator');
@@ -520,7 +520,7 @@ export const SocialPreviewModal: React.FC<SocialPreviewModalProps> = ({ isOpen, 
                 </button>
 
                 <a
-                  href="/og-image.png"
+                  href="https://i.postimg.cc/rynCf9Fv/image.png"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1.5 rounded-lg bg-slate-800 px-3 py-2 text-xs font-semibold text-slate-200 hover:bg-slate-700 transition-colors"

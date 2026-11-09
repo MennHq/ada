@@ -133,7 +133,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenSocialModal, onOpenAccessModal
               {/* Graphic container */}
               <div className="relative aspect-[1200/630] w-full overflow-hidden rounded-xl border border-slate-700/60 bg-slate-950">
                 <img
-                  src="/og-image.png"
+                  src="https://i.postimg.cc/rynCf9Fv/image.png"
+                  onError={(e) => {
+                    e.currentTarget.src = '/og-image.png';
+                  }}
                   alt="Aetheria Stratospheric Observatory at 38km altitude overlooking Earth horizon at dawn"
                   className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   loading="eager"
